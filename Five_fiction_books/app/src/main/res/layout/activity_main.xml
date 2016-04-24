@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.katia.five_fiction_books.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F8BBD0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fahrenheit 451"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="onClick1"
+            android:text="Read more"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F8BBD0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="The Lord of the Rings"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="onClick2"
+            android:text="Read more"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F8BBD0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A Song of Ice and Fire"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="onClick3"
+            android:text="Read more"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F8BBD0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nineteen Eighty-Four"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="onClick4"
+            android:text="Read more"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F8BBD0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="The Chronicles of Narnia"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#673AB7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="onClick5"
+            android:text="Read more"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="Like_or_dislike"
+            android:text="Like this program"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/dislike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E1F5FE"
+            android:gravity="center"
+            android:onClick="Like_or_dislike"
+            android:text="Dislike this program"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

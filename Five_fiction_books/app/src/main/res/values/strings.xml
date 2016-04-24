@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Five fiction books</string>
+
+    <string name="title_activity_book1">Fahrenheit 451</string>
+    <string name="text_1">
+        "Fahrenheit 451 is a dystopian novel by Ray Bradbury published in 1953. "
+        "It is regarded as one of his best works.\n\n"
+        "The novel presents a future American society where books are outlawed and "firemen" burn any that are found.\n"
+        "The title refers to the temperature that Bradbury asserted to be the autoignition temperature of paper.\n"
+        "(In reality, scientists place the autoignition temperature of paper anywhere from high 440 degrees "
+        "Fahrenheit to some 30 degrees hotter, depending on the study and type of paper.)\n"
+        "The novel has been the subject of interpretations focusing on the historical role of book burning in suppressing dissenting ideas.\n"
+    </string>
+
+    <string name="title_activity_book2">The Lord of the Rings</string>
+    <string name="text_2">
+        "The Lord of the Rings is an epic high-fantasy novel written by English author J. R. R. Tolkien.\n\n"
+        "The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work.\n"
+        "Written in stages between 1937 and 1949, The Lord of the Rings is the best-selling novel ever written, with over 150 million copies sold.\n"
+    </string>
+
+    <string name="title_activity_book3">A Song of Ice and Fire</string>
+    <string name="text_3">
+        "A Song of Ice and Fire is a series of epic fantasy novels by the American novelist and screenwriter George R. R. Martin.\n\n"
+        "The first volume of the series, A Game of Thrones, was begun in 1991 and first published in 1996.\n"
+        "Martin, who initially envisioned the series to be a trilogy, has published five out of a planned seven volumes.\n"
+        "The fifth and most recent volume of the series published in 2011, A Dance with Dragons, took Martin five years to write. "
+        "The sixth novel, The Winds of Winter, is still being written though is expected to be released in 2016.\n"
+    </string>
+
+    <string name="title_activity_book4">Nineteen Eighty-Four</string>
+    <string name="text_4">
+        "Nineteen Eighty-Four, often published as 1984, is a dystopian novel by English author George Orwell published in 1949.\n\n"
+        "The novel is set in Airstrip One (formerly known as Great Britain), a province of the superstate Oceania in a world of perpetual war, "
+        "omnipresent government surveillance and public manipulation, dictated by a political system euphemistically named English Socialism "
+        "(or Ingsoc in the government's invented language, Newspeak) under the control of a privileged elite of the Inner Party, "
+        "that persecutes individualism and independent thinking as thoughtcrime.\n"
+    </string>
+
+    <string name="title_activity_book5">The Chronicles of Narnia</string>
+    <string name="text_5">
+        "The Chronicles of Narnia is a series of seven high fantasy novels by author C. S. Lewis.\n\n"
+        "It is considered a classic of children's literature and is the author's best-known work, having sold over 100 million copies in 47 languages.\n"
+        "Written by Lewis, illustrated by Pauline Baynes, and originally published in London between 1950 and 1956, "
+        "The Chronicles of Narnia has been adapted several times, complete or in part, for radio, television, the stage, and film.\n"
+    </string>
+</resources>
